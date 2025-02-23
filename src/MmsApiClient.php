@@ -53,6 +53,16 @@ class MmsApiClient
     }
 
     /**
+     * Get the base URL of the API.
+     *
+     * @return string The base URL of the API.
+     */
+    public function getBaseUrl(): string
+    {
+        return $this->apiUrl;
+    }
+
+    /**
      * Make an HTTP request to the MMS API.
      *
      * @param string $method The HTTP method (GET, POST, etc.).
