@@ -1,0 +1,30 @@
+{
+    "name": "mms/mms-api-client",
+    "description": "A modular PHP library for interacting with the MMS API using Symfony HttpClient.",
+    "type": "library",
+    "autoload": {
+      "psr-4": {
+        "MmsApiClient\\": "src/",
+        "MmsApiClient\\Exceptions\\": "src/Exceptions/",
+        "MmsApiClient\\Handler\\": "src/Handler/"
+      }
+    },
+    "require": {
+      "symfony/http-client": "^6.0"
+    },
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Your Name",
+        "email": "your.email@example.com"
+      }
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:mms/mms-api-client.git"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    }
+}

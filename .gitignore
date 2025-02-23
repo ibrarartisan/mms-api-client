@@ -1,0 +1,24 @@
+# Composer directories
+/vendor/
+/composer.lock
+
+# IDE files
+/.idea/
+/.vscode/
+
+# Mac OS Finder directory
+.DS_Store
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# .env files (if you are using environment variables)
+.env
+
+# Ignore compiled files (e.g., PHPUnit coverage reports, phar files)
+*.phar
