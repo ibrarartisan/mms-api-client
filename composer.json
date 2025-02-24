@@ -1,5 +1,5 @@
 {
-    "name": "ibrarartisan/mms-api-client",
+    "name": "mms/mms-api-client",
     "description": "A modular PHP library for interacting with the MMS API using Symfony HttpClient.",
     "type": "library",
     "autoload": {
