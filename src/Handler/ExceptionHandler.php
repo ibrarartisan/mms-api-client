@@ -2,11 +2,11 @@
 
 namespace MmsApiClient\Handler;
 
-use MMS\MmsApiClient\Exceptions\UnauthorizedException;
-use MMS\MmsApiClient\Exceptions\NotFoundException;
-use MMS\MmsApiClient\Exceptions\BadRequestException;
-use MMS\MmsApiClient\Exceptions\ServerException;
-use MMS\MmsApiClient\Exceptions\GenericApiException;
+use MmsApiClient\Exceptions\UnauthorizedException;
+use MmsApiClient\Exceptions\NotFoundException;
+use MmsApiClient\Exceptions\BadRequestException;
+use MmsApiClient\Exceptions\ServerException;
+use MmsApiClient\Exceptions\GenericApiException;
 
 class ExceptionHandler
 {
